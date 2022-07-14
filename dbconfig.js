@@ -6,7 +6,8 @@ const config = {
     options:{
         trustedconnection: true,
         enableArithAbort: true,
-        instancename: 'MSSQLSERVER'
+        instancename: 'MSSQLSERVER',
+        trustServerCertificate: true
 
     },
     port : 1433
